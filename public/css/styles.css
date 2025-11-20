@@ -39,12 +39,12 @@ body {
     word-spacing: 2px;
 }
 
-footer {
-    padding-bottom: 10px;
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 0.9rem;
-    color: #051556;
+.footer-text {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
 }
 
 footer hr {

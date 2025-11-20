@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<%- include('partials/head.ejs') %>
+
+  <body>
+    <div class="page-wrapper">
+      <div class="backdrop">
+        <h1>The Solar System</h1>
+        <%- include('partials/nav.ejs') %>
+          <h2>Planet Mercury</h2><br>
+          <%= planetMercury.description %><br>
+            <img src="<%= planetMercury.image %>" class="pageImg">
+      </div>
+    </div>
+  </body>
+  <%- include('partials/footer.ejs') %>
+
+</html>
